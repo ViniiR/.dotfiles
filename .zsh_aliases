@@ -1,0 +1,4 @@
+alias ls="eza -a --icons"
+alias cat="bat"
+alias cd="z"
+alias find="fd"
