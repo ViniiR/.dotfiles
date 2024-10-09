@@ -11,10 +11,18 @@ config.tab_and_split_indices_are_zero_based = true
 config.enable_tab_bar = false
 
 config.window_padding = {
-	left = 15,
-	top = 15,
-	right = 10,
-	bottom = 10,
+	left = 0,
+	top = 0,
+	right = 0,
+	bottom = 0,
+}
+
+config.colors = {
+	cursor_fg = "#000000",
+	cursor_bg = "#FFFFFF",
+	cursor_border = "#FF0000",
+	selection_bg = "#FFFFFF",
+	selection_fg = "#000000",
 }
 
 config.initial_rows = 30
@@ -25,7 +33,7 @@ config.bold_brightens_ansi_colors = "No"
 config.font_size = 12
 config.font = wezterm.font_with_fallback {
 	{
-		family = "CaskaydiaCove Nerd Font Mono", weight = "Regular",
+		family = "CaskaydiaCove Nerd Font Mono", weight = "Medium",
 	},
 	family = "CaskaydiaCove Nerd Font Mono", 
 }
