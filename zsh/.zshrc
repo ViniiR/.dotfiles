@@ -114,5 +114,7 @@ eval "$(zoxide init zsh)"
 . ~/.dotfiles/zsh/.zsh_aliases
 . ~/.dotfiles/zsh/.zsh_keymaps
 
+export PATH="$PATH:/home/vinii/.dotfiles/rofi/scripts"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

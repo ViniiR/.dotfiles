@@ -149,4 +149,5 @@ configuration {
       sorting-method:    "name";
   }
 }
+
 @theme "/home/vinii/.local/share/rofi/themes/rounded-nord-dark.rasi"

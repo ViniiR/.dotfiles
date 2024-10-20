@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+query=$(rofi -dmenu -p "Web" -theme ~/.dotfiles/rofi/themes/dmenu-theme.rasi)
+if [ -n "$query" ]; then
+    firefox "https://www.google.com/search?q=$query"
+fi
